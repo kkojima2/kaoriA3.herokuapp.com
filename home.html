@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <!-- Required meta tags -->
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <link rel="stylesheet" href="web322.css" />
+
+    <title>WEB322</title>
+    <style></style>
+  </head>
+  <body>
+    <!-- <form onSubmit="return sendRequest;"> -->
+    <form action="/registration" method="POST" enctype="multipart/form-data">
+      <label for="fname">First name:</label><br />
+      <input type="text" id="fname" name="fname" value="John" /><br />
+      <label for="lname">Last name:</label><br />
+      <input type="text" id="lname" name="lname" value="Doe" /><br /><br />
+
+      <label for="phone">Phone:</label><br />
+      <input type="text" id="phone" name="phone" value="Doe" /><br /><br />
+
+      <label for="username">Username</label><br />
+      <input
+        type="text"
+        id="username"
+        name="username"
+        value="Doe"
+      /><br /><br />
+      <label for="password">Password:</label><br />
+      <input
+        type="password"
+        id="password"
+        name="password"
+        value="Doe"
+      /><br /><br />
+
+      <input type="submit" value="Submit" />
+    </form>
+  </body>
+</html>
